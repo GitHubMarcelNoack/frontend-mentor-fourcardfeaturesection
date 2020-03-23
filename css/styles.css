@@ -63,9 +63,22 @@ header p {
   flex-direction: column;
   border-radius: 5px;
   box-shadow: 0 19px 38px var(--neutral-light-gray), 0 15px 12px rgba(0, 0, 0, 0.22);
-  border-top: 5px solid var(--primary-cyan);
+  border-top: 5px solid;
   padding: 30px;
   transition: all 0.5s;
+}
+
+.card-border-red {
+  border-color: var(--primary-red);
+}
+.card-border-cyan {
+  border-color: var(--primary-cyan);
+}
+.card-border-orange {
+  border-color: var(--primary-orange);
+}
+.card-border-blue {
+  border-color: var(--primary-blue);
 }
 
 .card-description {
